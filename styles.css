@@ -1,0 +1,79 @@
+* {
+    margin:0;
+    background-color: rgb(66, 66, 108);
+}
+
+#gui {
+    border:solid aqua;
+    height:80vh;
+    margin-top:9vh;
+    background-color: rgb(66, 66, 108);
+}
+
+#computer_container {
+    border:solid;
+    background-color: aquamarine;
+    height:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:5vh;
+}
+#computer_choice {
+    background-color: aquamarine;
+    font-size:15vh;
+}
+
+
+#player_container {
+    border:solid;
+    background-color:rgb(78, 144, 172);
+    height:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:5vh;
+}
+#player_choice {
+    background-color:rgb(78, 144, 172);
+    font-size:15vh;
+}
+button {
+    border:none;
+    background:none;
+    font-size:15vh;
+    transition:400ms;
+}
+
+button:hover {
+    cursor:pointer;
+    scale: 1.2;
+    transition:400ms;
+}
+#play_game {
+    background-color:rgb(66, 66, 108);
+    font-size:8vh;
+    border-radius: 1rem;
+    margin-top:1rem;
+}
+#play_game:hover {
+    scale:0.8;
+}
+
+.win, .loss, .draw {
+    border-radius: 1.5rem;
+    border:solid;
+    margin-top:.3rem;
+    padding:.5rem;
+}
+.win {
+    background-color: blueviolet;
+}
+.loss {
+    background-color: brown;
+}
+.draw {
+    background-color: bisque;
+}
